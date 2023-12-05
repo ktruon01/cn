@@ -25,3 +25,12 @@
   4b. Response
     - Full large response sent if local copy not valid
   5. Response
+    - Display
+#### Web Proxies
+- Place intermediary between pool of clients and external web servers
+  - Benefits include better caching for clients and security checking
+  - Organizational access policies too
+- Proxy caching
+  - Clients benefit from larger, shared cache
+  - Benefits limited by secure / dynamic content, as well as "long tail"
+- Cllients contact proxy; proxy contacts server
