@@ -14,4 +14,15 @@
   - client priorities for parallel requests
   - compressed HTTP headers
   - server push of resources
-#### 
+#### mod_pagespeed
+- Idea:
+  - have server re-write (compile) pages to help load quickly
+  - mod_pagespeed is an example
+- Apache server extension
+  - software installed on web server
+  - rewrite pagese on the fly based on best practices rules
+- Example rewrite rules:
+  - Minify Javascript
+  - Flatten multi-level CSS files
+  - resize images
+  - and more (100s of specific rules)
