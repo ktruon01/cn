@@ -1,1 +1,12 @@
-
+#### Topic
+- CDNs provide efficient distribution of popular content; faster delivery for clients
+#### Context
+- Web took off in 90s, traffic volumes grew
+  - Concentrated load on popular servers
+  - Led to congested netowrks and need to provision more bandwidth
+  - poor user experience
+- Idea: place popular content near clients
+#### After CDNs
+- Benefits assuming popular content
+  - Reduces server, network load
+  - Improve user experience (PLT)
