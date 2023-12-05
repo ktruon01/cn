@@ -8,3 +8,10 @@
   - HTTP/2 effort based on SPDY
 2. Better content structures
   - mod_pagespeed server extension
+#### SPDY
+- a set of HTTP improvements
+  - multliplexed (parallel) HTTP requests on one TCP connection
+  - client priorities for parallel requests
+  - compressed HTTP headers
+  - server push of resources
+#### 
