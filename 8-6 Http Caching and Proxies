@@ -1,0 +1,14 @@
+### 8-6 HTTP Caching and Proxies
+#### Topic
+- HTTP caching and proxies
+  - Enabling content reuse
+#### Web Caching
+- Caching - reuse local copy
+- When is it okay to reuse local copy?
+  - Local determination or revalidation
+- Locally determine copy is still valid
+  - "Expires" header from server
+  - Or use a heuristic to guess (cacheable, freshly valid, not modified recently)
+- Revalidate copy with with remote server
+  - Based on timestamp of copy such as "Last-Modified" header from server
+  - Or based on content of copy such as "Etag" header from server
