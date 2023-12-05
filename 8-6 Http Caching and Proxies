@@ -12,3 +12,16 @@
 - Revalidate copy with with remote server
   - Based on timestamp of copy such as "Last-Modified" header from server
   - Or based on content of copy such as "Etag" header from server
+  - Content available after 1 RTT
+- Putting pieces together
+  1. Request 
+    - Request typed into browser
+  2. Check expiry
+    - Web browser checks local cache for valid local copy
+  3. Conditional GET
+    - Revalidate with server by sending header information
+  4a. Not modified
+    - Sent if local copy is still valid
+  4b. Response
+    - Full large response sent if local copy not valid
+  5. Response
