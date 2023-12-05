@@ -10,3 +10,13 @@
 - Benefits assuming popular content
   - Reduces server, network load
   - Improve user experience (PLT)
+#### Popularity of Content
+- Zipf's Law: 1/k
+#### How to place content near clients?
+- Use browser and proxy caches
+  - helps, but limited to one client or clients in one organization
+- Want to place replicas across the Internet for use by all nearby clients -> clever use of DNS
+#### Content Delivery Network
+- DNS resolution of site give different answers to clients
+  - tell each client the site is the nearest replica (map client IP)
+#### 
