@@ -1,0 +1,10 @@
+#### Topic
+- The Future of HTTP
+  - how will we make web faster?
+#### Modern Web Pages
+- Waterfall diagram shows progression of page load
+#### Recent work to reduce PLT
+1. Better use of network
+  - HTTP/2 effort based on SPDY
+2. Better content structures
+  - mod_pagespeed server extension
