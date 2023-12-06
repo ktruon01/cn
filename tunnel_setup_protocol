@@ -1,0 +1,26 @@
+In computer networking, the Tunnel Setup Protocol (TSP) is an experimental networking control protocol used to negotiate IP tunnel setup parameters between a tunnel client host and a tunnel broker server, the tunnel end-points.[1] 
+A major use of TSP is in IPv6 transition mechanisms.
+
+### Parameter negotiation
+The TSP protocol performs negotiation of the following parameters:
+- User authentication using the Simple Authentication and Security Layer (SASL) protocol[2]
+- Tunnel encapsulation for a variety of tunneling scenarios:
+  - IPv6 over IPv4 tunnels[3]
+  - IPv4 over IPv6 tunnels[4]
+  - IPv6 over UDP/IPv4 tunnels for built-in traversal of network address translators (NAT)
+- IP address assignment for both tunnel endpoints
+- Domain Name System (DNS) registration of end point addresses and reverse DNS
+- Tunnel keep-alive mechanism as needed
+- IPv6 address prefix assignment for routers
+- Routing protocols
+
+### TSP Session
+A TSP session is initiated by the TSP client in the goal of establishing an end-to-end tunnel with the TSP server (tunnel broker). 
+The session consists of a basic exchange of XML-encoded data using TCP or UDP. 
+After the negotiation of tunnel setup parameters, the session is terminated and the client undertakes the task of configuring its local tunnel endpoint.
+
+### References
+[1] M. Blanchet; F. Parent (February 2010). IPv6 Tunnel Broker with the Tunnel Setup Protocol (TSP). doi:10.17487/RFC5572. ISSN 2070-1721. RFC 5572. Experimental.
+[2] A. Melnikov; K. Zeilenga, eds. (June 2006). Simple Authentication and Security Layer (SASL). Network Working Group. doi:10.17487/RFC4422. RFC 4422. Proposed Standard. Obsoletes RFC 2222.
+[3] E. Nordmark; R. Gilligan (October 2005). Basic Transition Mechanisms for IPv6 Hosts and Routers. Network Working Group. doi:10.17487/RFC4213. RFC 4213. Proposed Standard. Obsoletes RFC 2893.
+
